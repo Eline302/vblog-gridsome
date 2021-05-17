@@ -86,7 +86,6 @@ query ($page: Int) {
         id
         name
         avatarUrl{
-          name
           url
         }
         htmlUrl
@@ -104,7 +103,6 @@ query ($page: Int) {
         id
         name
         avatarUrl{
-          name
           url
         }
         htmlUrl
