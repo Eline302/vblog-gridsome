@@ -9,7 +9,6 @@ module.exports = {
   icon: {
     favicon: './src/favicon.png'
   },
-  pathPrefix: '/vblog-gridsome',
   plugins: [
     {
       use: '@gridsome/source-strapi',
