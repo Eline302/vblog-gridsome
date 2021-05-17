@@ -52,7 +52,7 @@
                         <br>
                     </div>
                 </el-col>
-                <el-col :span="2" style="text-align: center;">
+                <el-col :span="2" style="text-align: center; cursor: pointer;">
                     <img v-popover:bigAvatar :src="avatarUrl" class="avatar" >
                     <el-popover ref="bigAvatar" placement="top-start" :title="username" width="200" trigger="hover">
                         <i class="el-icon-star-on"></i>&emsp;苗

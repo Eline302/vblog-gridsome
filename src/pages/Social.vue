@@ -14,7 +14,7 @@
                       <i class="el-icon-message"></i>&emsp;
                       <a :href="item.node.htmlUrl" target="_blank" style="text-decoration:none;cursor:pointer;color: #1e6bb8;">TA的主页</a>
                       <br />
-                      <img :src="`${GRIDSOME_API_URL}${item.node.avatarUrl[0].url}`" style="width: 100%;border-radius:5px;margin-top: 5px">
+                      <img :src="`https://avatars.githubusercontent.com/u/${item.node.avatarUrl[0].name.split('.')[0]}`" style="width: 100%;border-radius:5px;margin-top: 5px">
                     </el-card>
                   </el-col>
                 </el-row>
@@ -46,7 +46,7 @@
                       <i class="el-icon-message"></i>&emsp;
                       <a :href="item.node.htmlUrl" target="_blank" style=" text-decoration:none;cursor:pointer;color: #1e6bb8;">TA的主页</a>
                       <br />
-                      <img :src="`${GRIDSOME_API_URL}${item.node.avatarUrl[0].url}`"  style="width: 100%;border-radius:5px;margin-top: 5px">
+                      <img :src="`https://avatars.githubusercontent.com/u/${item.node.avatarUrl[0].name.split('.')[0]}`"  style="width: 100%;border-radius:5px;margin-top: 5px">
                     </el-card>
                   </el-col>
                 </el-row>
@@ -87,6 +87,7 @@ query ($page: Int) {
         name
         avatarUrl{
           url
+          name
         }
         htmlUrl
       }
@@ -104,6 +105,7 @@ query ($page: Int) {
         name
         avatarUrl{
           url
+          name
         }
         htmlUrl
       }
