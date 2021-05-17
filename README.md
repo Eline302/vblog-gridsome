@@ -1,14 +1,21 @@
-# Default starter for Gridsome
+# 个人博客
 
-This is the project you get when you run `gridsome create new-project`.
+> 采用 Gridsome 进行开发的 Vue 静态站点项目
 
-### 1. Install Gridsome CLI tool if you don't have
+静态页面模板参考 [GitHub-Laziji/VBlog]( https://github-laziji.github.io/#/user/new/main) ，数据获取使用 Github API 获取 Github 数据和 strapi 中创建的数据
 
-`npm install --global @gridsome/cli`
+## 技术栈
 
-### 2. Create a Gridsome project
+- Vue 2.x
+- Gridsome
+- strapi
+- ElementUI
+- GraphQL
+- Github API
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+## 功能实现
+
+- 开源项目列表与详情
+- 博客列表与详情
+- 粉丝列表与详情
+- 关注人列表与详情
