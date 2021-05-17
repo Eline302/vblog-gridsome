@@ -5,7 +5,7 @@ const request = axios.create({
   timeout: 15000,
   headers: {
     // xxx 需换成真实的 token
-    Authorization: 'token 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'
+    Authorization: 'token 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'
   }
 })
 
